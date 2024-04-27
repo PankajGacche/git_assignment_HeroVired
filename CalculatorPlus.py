@@ -12,8 +12,12 @@ class Calculator:
         return a * b
     
     def divide(self, a, b):
+        try:
+            if b == 0:   
+        except ValueError as e:
+           print("Error:",e) # Cannot divide by zero.
         return a / b
-
+        
     def square_root(self, x):
         return math.sqrt(x)
 
