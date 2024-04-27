@@ -12,12 +12,16 @@ class Calculator:
         return a * b
     
     def divide(self, a, b):
+        try:
+            if b == 0:   
+        except ValueError as e:
+           print("Error:",e) # Cannot divide by zero.
         return a / b
-
+        
     def square_root(self, x):
         return math.sqrt(x)
-        
-    def square_root1(self, x): #Add the ‘sqrt’ new code to it
+      
+    def square_root_created_for_new_enhancement(self, x): #Add the ‘sqrt’ new code to it
         return math.sqrt(x)
 
 if __name__ == "__main__":
