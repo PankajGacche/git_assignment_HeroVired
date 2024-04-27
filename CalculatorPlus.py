@@ -20,7 +20,7 @@ class Calculator:
         
     def square_root(self, x):
         return math.sqrt(x)
-        
+      
     def square_root_created_for_new_enhancement(self, x): #Add the ‘sqrt’ new code to it
         return math.sqrt(x)
 
