@@ -12,11 +12,15 @@ class Calculator:
         return a * b
     
     def divide(self, a, b):
+        try:
+            if b == 0:   
+        except ValueError as e:
+           print("Error:",e) # Cannot divide by zero.
         return a / b
-
+        
     def square_root(self, x):
         return math.sqrt(x)
-        
+      
     def square_root_created_for_new_enhancement(self, x): #Add the ‘sqrt’ new code to it
         return math.sqrt(x)
 
@@ -35,7 +39,6 @@ print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}")
 print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
 
 num3 = 25
-
 print(f"The square root of {num3} = {calculator.square_root(num3)}")
 
 num4 = 30

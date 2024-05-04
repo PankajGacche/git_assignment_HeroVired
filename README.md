@@ -23,3 +23,7 @@ Performed below steps:
 -Dev branch changes merged successfully into main branch.
 -Merged feature_Sqrt branch changes with dev branch.
 -Again merge final changes from dev branch to main branch and release of version 2 of the ‘calculator plus app’.
+=======
+Created new branch called 'dev' and implemented a new feature that adds support for calculating the square root of a number with given existing code and added it to dev branch.
+Merge dev brach changes into main branch.
+
