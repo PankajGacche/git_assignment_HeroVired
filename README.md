@@ -11,6 +11,6 @@ Performed below steps:
 -Track .zip extention files using command got lfs track "*.zip"
 -After running above command .gotattribute file generated.
 -Added more than 200 MB size file in local repo and pushed it to lfs branch.
--Clone repository 'git_assignment_HeroVired'. in different location and pulled data form lfs branch.
--Able to pull successfully large file of from remote having size more than 200 MB size.
+-Clone repository 'git_assignment_HeroVired'. using command git clone -b lfs repo_url in different location and pulled all data from lfs branch.
+-Able to pull successfully large file from remote which having size more than 200 MB size.
 
